@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+body, html {
+  font-family: 'Roboto', sans-serif;
+  color: #2C2825;
+  background-color: #FDFEF8;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Navigation Bar CSS*/
+.max-width-layout {
+  max-width: 1000px;
+  margin: 0 auto !important;
+}
+
+.nav-bg-color {
+  background-color: #2C2825;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.nav-color {
+  font-family: 'Lato', sans-serif;
+  color: #DABE7B !important;
+  font-size: 120%;
+}
+
+.navbar .nav a:hover {
+  color: #ACE532 !important;
+  text-shadow: 0 0 12px white;
+}
+
+.navbar .nav .dropdown a:focus, .navbar .nav .dropdown a:hover {
+  background-color: #2C2825;
+  color: #ACE532 !important;
+  text-shadow: 0 0 12px white;
+}
+
+.navbar .navbar-nav>li.open>a {
+  background-color: #2C2825;
+  text-shadow: 0 0 20px white;
+}
+
+.bottom-border {
+  background-color: #E4C686;
+  height: 5px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.dropdown-bgcolor {
+  background-color: #2C2825;
+}
+
+/* Carousel CSS  */
+.carousel-size {
+  max-width: 1000px;
+  height: 500px;
+  width: auto;
+  margin: 0 auto;
+}
+
+/* Content CSS */
+.content-main-wrapper {
+  max-width: 1000px;
+  width: auto;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.content-article {
+  border-right: 2px solid #E4C686;
+  margin-bottom: 15px;
+}
+.content-title {
+  background-color: brown;
+  color: #E4C686;
+  padding: 10px;
+}
+
+/* footer CSS */
+.footer-container {
+  background-color: #2C2825;
+}
+
+.footer {
+  max-width: 1000px;
+  width: auto;
+  font-family: 'Lato', sans-serif;
+  color: #DABE7B !important;
+  font-size: 120%;
+  padding: 5px;
+  text-align: right;
+  margin: 0 auto;
+}
