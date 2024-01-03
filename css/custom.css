@@ -495,11 +495,11 @@ body, html {
 .footer {
   max-width: 1000px;
   width: auto;
-  font-family: 'Lato', sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   color: #DABE7B !important;
   font-size: 120%;
   padding: 5px;
-  text-align: right;
+  text-align: center;
   margin: 0 auto;
 }
 
